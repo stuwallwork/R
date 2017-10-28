@@ -1,6 +1,8 @@
 ---
 title: "R Notebook"
-output: html_notebook
+output:
+  html_notebook: default
+  word_document: default
 ---
 
 This is an [R Markdown](http://rmarkdown.rstudio.com) Notebook. When you execute code within the notebook, the results appear beneath the code. 
@@ -17,47 +19,10 @@ When you save the notebook, an HTML file containing the code and output will be 
 
 The preview shows you a rendered HTML copy of the contents of the editor. Consequently, unlike *Knit*, *Preview* does not run any R code chunks. Instead, the output of the chunk when it was last run in the editor is displayed.
 
+###Example Table
 
-#Useful Commands
-
-###Library
-
-- library()
-
-*views available packages*
-
-- search()
-
-*see what packages are loaded*
-
-- library('car')
-
-*Loads the car package*
-
-- install.packages('stringdist')
-
-*Installs a new package stringdist*
-
-
-###Variables
-
- - x <- 1 
- 
- *assign the value 1 to variable x*
- 
- - ls()
- 
- *list variables in the workspace*
- 
- - rm(x)
- 
- *Delete (remove) variable x from the workspace*
- 
-###Functions
-
-- sqrt()
-
-*Resolves the square root of a number of variable*
-
-
-###Graphics
+Column 1  | Column2  | Column 3
+--------- |----------|------------
+Entry 1   |Entry 2    | Entry 3
+Entry 1   |Entry 2    | Entry 3
+Entry 1   |Entry 2    | Entry 3
