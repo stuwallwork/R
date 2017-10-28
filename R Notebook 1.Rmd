@@ -58,3 +58,6 @@ The preview shows you a rendered HTML copy of the contents of the editor. Conseq
 - sqrt()
 
 *Resolves the square root of a number of variable*
+
+
+###Graphics
